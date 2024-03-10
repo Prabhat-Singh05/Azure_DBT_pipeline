@@ -1,0 +1,30 @@
+version: 2 
+
+models:
+  - name: dim_customer
+    columns:
+      - name: customer_rnk
+        description: The surrogate key of the customer 
+        tests:
+          - unique
+          - not_null
+      - name: CustomerID,
+        description: The primary key of the customer 
+        tests:
+          - unique
+          - not_null
+      - name: fullname,
+        description: The Full name of the customer  
+        tests:
+          - not_null
+      - name: AddressID
+        description: The primary key of the address 
+        tests:
+          - unique
+          - not_null
+      - name: AddressType
+      - name: AddressLine1,
+      - name: City,
+      - name: StateProvince,
+      - name: countryRegion,
+      - name: PostalCode

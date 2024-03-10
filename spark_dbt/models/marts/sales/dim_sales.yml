@@ -1,0 +1,39 @@
+version: 2 
+
+models:
+  - name: dim_sales
+    columns:
+      - name: SalesOrderID
+        description: The primary key of the sales table
+        tests:
+          - unique
+          - not_null
+      - name: SalesOrderDetailID
+      - name: OrderQty
+        description: The order quantity of sales 
+        tests:
+          - not_null
+      - name: ProductID
+        description: The foreign key of sales table
+        tests:
+          - not_null
+      - name: UnitPrice
+        description: The Unit price of quantity
+        tests:
+          - not_null
+      - name: UnitPriceDiscount
+      - name: LineTotal
+      - name: OrderDate
+        description: The Order Date of the order
+        tests:
+          - not_null
+      - name: DueDate
+        tests:
+          - not_null
+        description: The Due Date of the order
+      - name: ShipDate
+        description: The Shipping Date of the order
+      - name: Status
+        description: The status of the order 
+        tests:
+          - not_null
