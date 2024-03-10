@@ -44,4 +44,4 @@ Contributions to this project are welcome! Feel free to fork the repository, mak
 ##### License
 This project is licensed under the MIT License, allowing for free usage, modification, and distribution.
 
-Thank you for exploring the Setup and End-to-End Data Engineering project with Apache Spark, Azure Databricks, and DBT. We hope this project serves as a valuable resource for your data engineering endeavors on the Azure cloud platform. Happy engineering! 🚀
+Thank you for exploring the Setup and End-to-End Data Engineering project with Apache Spark, Azure Databricks, and DBT. I hope this project serves as a valuable resource for your data engineering endeavors on the Azure cloud platform. Happy engineering! 🚀
