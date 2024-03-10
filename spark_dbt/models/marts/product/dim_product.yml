@@ -1,0 +1,43 @@
+version: 2 
+
+models:
+  - name: dim_product
+    columns:
+      - name: product_sn
+        description: The surrogate key of the product
+        tests:
+          - unique
+          - not_null
+      - name: ProductID
+        description: The primary key of the product
+        tests:
+          - unique
+          - not_null
+      - name: ProductName
+        description: The name of the product
+        tests:
+          - not_null
+      - name: ProductNumber
+        description: Product number
+      - name: StandardCost
+        description: The Standard Cost of the product
+        tests:
+          - not_null
+      - name: ListPrice
+        description: The List price of the product
+      - name: ProductCategoryID
+        description: Product CategoryID 
+      - name: ProductModelID
+        description: Product ModelID 
+      - name: SellStartDate
+        description: The Sell Start Date of the product
+        tests:
+          - not_null
+      - name: SellEndDate
+        description: The Sell End Date of the product
+      - name: DiscontinuedDate
+        description: The Discontinued Date of the product
+      - name: Model_name
+        description: Model name of the product
+      - name: Description
+        description: Model Description of the product

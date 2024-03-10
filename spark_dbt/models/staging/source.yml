@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: saleslt
+    schema: saleslt
+    description: This is data source is coming from database loaded into databricks from raw-data container(Azure)
+    tables:
+      - name: address
+      - name: customer
+      - name: customeraddress
+      - name: product
+      - name: productcategory
+      - name: productdescription
+      - name: productmodel
+      - name: productmodelproductdescription
+      - name: salesorderdetail
+      - name: salesorderheader
+
+
