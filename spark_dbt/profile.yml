@@ -4,7 +4,7 @@ spark_dbt:
     dev:
       type: databricks
       schema: salelt
-      host: adb-5559277339737022.2.azuredatabricks.net
-      http_path: sql/protocolv1/o/5559277339737022/0302-234200-sdao5mjr
-      token: dapi01c9c84016eeb5e25b492aac45cebf78
+      host: <add host>
+      http_path: <add sql http_path>
+      token: <add token>
       threads: 1
