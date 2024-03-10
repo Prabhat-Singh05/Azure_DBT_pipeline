@@ -2,9 +2,10 @@ Welcome to your new dbt project!
 
 ### Using the starter project
 
-Try running the following commands:
-- dbt run
-- dbt test
+Run the following commands:
+- dbt snapshot      # to run the snapshots models
+- dbt run           # to run the models/marts models
+- dbt test          # to run test on the models
 
 
 ### Resources:
